@@ -14,10 +14,12 @@ namespace CMP1903_A1_2324
          */
 
         //Property
-
+        private Random die = new Random();
 
         //Method
-
-
+        public int Roll() 
+        {
+            return die.Next(1, 7);
+        }
     }
 }
